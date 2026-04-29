@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [AKhilesh S. Choudhary]
+# 👋 Hi, I'm **Akhilesh S. Choudhary**
 
 ### Offensive Security | VAPT | Security Researcher
 I focus on offensive security, automation, and vulnerability research. I enjoy breaking things just to learn how to build them back stronger.
