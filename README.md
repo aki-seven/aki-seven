@@ -5,15 +5,14 @@ I focus on offensive security, automation, and vulnerability research. I enjoy b
 
 ---
 
-### 🚀 Technical Arsenal
+## 🚀 Technical Arsenal
 
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Offensive Security** | Kali Linux & All sorts of Tools! |
-| **Languages** | Python, Bash, Java |
-| **Platforms** | TryHackMe, Hack The Box 
-<!--, OffSec Play | -->
-| **Specializations** | Network Pentesting, Web App Security, Automated Enumeration |
+| **Languages & Scripting** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash](https://img.shields.io/badge/bash-%231E293B.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) |
+| **Security Environments** | ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
+| **Pentesting & Automation** | ![Nmap](https://img.shields.io/badge/Nmap-%234F46E5.svg?style=for-the-badge&logo=security&logoColor=white) ![Nuclei](https://img.shields.io/badge/Nuclei-%2306B6D4.svg?style=for-the-badge&logo=target&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) |
+| **Platforms & Labs** | ![TryHackMe](https://img.shields.io/badge/TryHackMe-990000?style=for-the-badge&logo=tryhackme&logoColor=white) ![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hack-the-box&logoColor=black) |
 
 ---
 
