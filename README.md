@@ -1,4 +1,4 @@
-# 👋 Hi, I'm **Akhilesh S. Choudhary**
+![Header Banner](https://capsule-render.vercel.app/api?type=blur&color=gradient&height=220&section=header&text=Hi,%20I'm%20Akhilesh&fontSize=50&fontColor=ffffff&desc=Security%20Researcher%20%7C%20Python%20Developer&descSize=20&descAlignY=65)
 
 ### Offensive Security | VAPT | Security Researcher
 I focus on offensive security, automation, and vulnerability research. I enjoy breaking things just to learn how to build them back stronger.
