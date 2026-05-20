@@ -1,4 +1,11 @@
-![Header Banner](https://capsule-render.vercel.app/api?type=blur&color=gradient&height=220&section=header&text=Hi,%20I'm%20Akhilesh&fontSize=50&fontColor=ffffff&desc=Security%20Researcher%20%7C%20Python%20Developer&descSize=20&descAlignY=65)
+<div align="center">
+<!--
+![Header](https://capsule-render.vercel.app/api?type=waving&height=260&color=0:2b1055,50:7597de,100:c33764&text=Akhilesh%20Singh&fontColor=ffffff&fontSize=50&animation=fadeIn&desc=Cybersecurity%20Analyst%20|%20Security%20Researcher%20%7C%20Python%20Developer&descSize=20&descAlignY=65)
+-->
+
+![Header](https://capsule-render.vercel.app/api?type=blur&height=360&color=0:000428,50:001f54,100:004e92&section=header&text=Hi,%20I'm%20Akhilesh%20Singh&fontColor=ffffff&fontSize=52&animation=fadeIn&desc=Cybersecurity%20Analyst%20|%20Security%20Researcher%20%7C%20Python%20Developer&descSize=20&descAlignY=60)
+
+</div>
 
 ### Offensive Security | VAPT | Security Researcher
 I focus on offensive security, automation, and vulnerability research. I enjoy breaking things just to learn how to build them back stronger.
