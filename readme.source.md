@@ -272,16 +272,122 @@
 </div>
 ```
 
-```aura width=860 height=320 link="https://collectioneur.github.io/readme-aura/"
+```aura width=860 height=140 link="https://aki-seven.github.io/"
+(function() {
+  var stats = [
+    { label: 'Repos', value: '11', color: '#a78bfa' },
+    { label: 'Stars', value: '1', color: '#60a5fa' },
+    { label: 'Languages', value: '5', color: '#f59e0b' },
+    { label: 'Commits', value: '150+', color: '#34d399' },
+  ];
+
+  return (
+    <div style={{
+      width: '100%', height: '100%',
+      background: '#08080c',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      fontFamily: 'Inter', borderRadius: 16,
+      border: '1px solid rgba(110,80,220,0.18)',
+      position: 'relative', overflow: 'hidden',
+    }}>
+
+      <style>{`
+        @keyframes float-slow {
+          0%, 100% { transform: translateX(0px); opacity: 0.8; }
+          50% { transform: translateX(350px); opacity: 1.2; }
+        }
+        @keyframes float-medium {
+          0%, 100% { transform: translateX(0px); opacity: 0.7; }
+          50% { transform: translateX(-250px); opacity: 1.1; }
+        }
+        @keyframes float-fast {
+          0%, 100% { transform: translateX(0px); opacity: 0.9; }
+          50% { transform: translateX(200px); opacity: 0.6; }
+        }
+        @keyframes float-diagonal {
+          0%, 100% { transform: translate(0px, 0px); opacity: 0.75; }
+          50% { transform: translate(120px, 30px); opacity: 1.0; }
+        }
+        @keyframes float-wave {
+          0%, 100% { transform: translateX(0px); opacity: 0.65; }
+          33% { transform: translateX(-160px); opacity: 0.9; }
+          66% { transform: translateX(80px); opacity: 1.0; }
+        }
+        @keyframes float-pulse {
+          0%, 100% { transform: scale(1); opacity: 0.8; }
+          50% { transform: scale(1.3); opacity: 0.4; }
+        }
+        #glow-s1 { animation: float-slow 8s ease-in-out infinite; }
+        #glow-s2 { animation: float-medium 12s ease-in-out infinite; }
+        #glow-s3 { animation: float-fast 9s ease-in-out infinite; }
+        #glow-s4 { animation: float-diagonal 10s ease-in-out infinite; }
+        #glow-s5 { animation: float-wave 14s ease-in-out infinite; }
+      `}</style>
+
+      <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="gs1" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(110,20,210,0.65)" />
+            <stop offset="45%" stopColor="rgba(80,15,170,0.28)" />
+            <stop offset="70%" stopColor="rgba(80,15,170,0)" />
+          </radialGradient>
+          <radialGradient id="gs2" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(40,70,255,0.55)" />
+            <stop offset="45%" stopColor="rgba(20,50,200,0.22)" />
+            <stop offset="70%" stopColor="rgba(20,50,200,0)" />
+          </radialGradient>
+          <radialGradient id="gs3" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(0,140,255,0.42)" />
+            <stop offset="70%" stopColor="rgba(0,140,255,0)" />
+          </radialGradient>
+          <radialGradient id="gs4" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(0,195,235,0.30)" />
+            <stop offset="70%" stopColor="rgba(0,195,235,0)" />
+          </radialGradient>
+          <radialGradient id="gs5" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(100,30,210,0.40)" />
+            <stop offset="70%" stopColor="rgba(100,30,210,0)" />
+          </radialGradient>
+        </defs>
+        <ellipse id="glow-s1" cx="710" cy="150" rx="210" ry="150" fill="url(#gs1)" />
+        <ellipse id="glow-s2" cx="550" cy="140" rx="190" ry="140" fill="url(#gs2)" />
+        <ellipse id="glow-s3" cx="400" cy="130" rx="170" ry="130" fill="url(#gs3)" />
+        <ellipse id="glow-s4" cx="250" cy="140" rx="150" ry="120" fill="url(#gs4)" />
+        <ellipse id="glow-s5" cx="100" cy="150" rx="130" ry="110" fill="url(#gs5)" />
+      </svg>
+
+      {stats.map(function(s, i) {
+        return (
+          <div key={s.label} style={{
+            flexGrow: 1, display: 'flex', flexDirection: 'column',
+            alignItems: 'center', justifyContent: 'center',
+            padding: '16px 8px',
+            borderRight: i < stats.length - 1 ? '1px solid rgba(255,255,255,0.06)' : 'none',
+            gap: 5,
+          }}>
+            <div style={{ display:'flex', fontSize:30, fontWeight:800, color:s.color, lineHeight:1 }}>
+              {s.value}
+            </div>
+            <div style={{ display:'flex', fontSize:11, color:'rgba(200,195,225,0.45)', fontWeight:600, letterSpacing:'1.5px' }}>
+              {s.label.toUpperCase()}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+})()
+```
+
+```aura width=860 height=260 link="https://aki-seven.github.io/"
 (function() {
   var projects = [
     {
-      name: 'CTF_enum',
-      desc: 'Automation script for recon and enumeration in CTF challenges',
-      lang: 'Python',
-      url: 'https://github.com/aki-seven/CTF_enum',
-      color: '#3572A5',
-      stars: 1,
+      name: 'ytdesktop',
+      desc: 'A Desktop App for YouTube built with Electron',
+      lang: 'TypeScript',
+      url: 'https://github.com/aki-seven/ytdesktop',
+      color: '#3178c6',
     },
     {
       name: 'Hash3r',
@@ -289,15 +395,6 @@
       lang: 'Python',
       url: 'https://github.com/aki-seven/Hash3r',
       color: '#3572A5',
-      stars: 0,
-    },
-    {
-      name: 'ytdesktop',
-      desc: 'A Desktop App for YouTube built with Electron',
-      lang: 'TypeScript',
-      url: 'https://github.com/aki-seven/ytdesktop',
-      color: '#3178c6',
-      stars: 0,
     },
     {
       name: 'Internship-Projects',
@@ -305,15 +402,6 @@
       lang: 'Python',
       url: 'https://github.com/aki-seven/Internship-Projects',
       color: '#3572A5',
-      stars: 0,
-    },
-    {
-      name: 'DOTFILES',
-      desc: 'My configuration files for my setup. Feel free to use em.',
-      lang: 'Shell',
-      url: 'https://github.com/aki-seven/DOTFILES',
-      color: '#89e051',
-      stars: 0,
     },
   ];
 
@@ -343,7 +431,7 @@
         #glow-p3 { animation: float-fast 8s ease-in-out infinite; }
       `}</style>
 
-      <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0 }}>
+      <svg width="860" height="260" style={{ position: 'absolute', top: 0, left: 0 }}>
         <defs>
           <radialGradient id="gp1" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="rgba(102,34,238,0.4)" />
@@ -358,16 +446,20 @@
             <stop offset="70%" stopColor="rgba(80,40,220,0)" />
           </radialGradient>
         </defs>
-        <ellipse id="glow-p1" cx="200" cy="300" rx="250" ry="180" fill="url(#gp1)" />
-        <ellipse id="glow-p2" cx="500" cy="310" rx="200" ry="150" fill="url(#gp2)" />
-        <ellipse id="glow-p3" cx="750" cy="300" rx="180" ry="140" fill="url(#gp3)" />
+        <ellipse id="glow-p1" cx="200" cy="240" rx="250" ry="180" fill="url(#gp1)" />
+        <ellipse id="glow-p2" cx="500" cy="250" rx="200" ry="150" fill="url(#gp2)" />
+        <ellipse id="glow-p3" cx="750" cy="240" rx="180" ry="140" fill="url(#gp3)" />
       </svg>
+
+      <div style={{ fontSize:10, fontWeight:700, color:'rgba(155,140,210,0.5)', letterSpacing:'3px', zIndex:10 }}>
+        FEATURED PROJECTS
+      </div>
 
       <div style={{ display:'flex', flexWrap:'wrap', gap:14, zIndex:10 }}>
         {projects.map(function(p) {
           return (
             <a key={p.name} href={p.url} style={{
-              display:'flex', flexDirection:'column', width:'260px',
+              display:'flex', flexDirection:'column', width:'250px',
               padding:'16px', borderRadius:12, textDecoration:'none',
               background:'rgba(20,15,40,0.7)', border:'1px solid rgba(110,80,220,0.2)',
               gap:8,
@@ -390,17 +482,6 @@
                   background:p.color + '20', border:'1px solid ' + p.color + '40',
                   color:p.color, fontSize:10, fontWeight:600,
                 }}>{p.lang}</div>
-                {p.stars > 0 && (
-                  <div style={{
-                    display:'flex', alignItems:'center', gap:3,
-                    color:'rgba(255,215,0,0.8)', fontSize:10, fontWeight:600,
-                  }}>
-                    <svg width="10" height="10" viewBox="0 0 16 16" fill="currentColor">
-                      <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
-                    </svg>
-                    {p.stars}
-                  </div>
-                )}
               </div>
             </a>
           );
@@ -410,5 +491,3 @@
   );
 })()
 ```
-
-powered by readme-aura
