@@ -124,7 +124,7 @@
 </div>
 ```
 
-```aura width=860 height=260 link="https://aki-seven.github.io/"
+```aura width=860 height=220 link="https://aki-seven.github.io/"
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
   display: 'flex', alignItems: 'center', fontFamily: 'Inter',
@@ -158,112 +158,108 @@
         0%, 100% { transform: scale(1); opacity: 0.8; }
         50% { transform: scale(1.3); opacity: 0.4; }
       }
-      #glow-1 { animation: float-slow 8s ease-in-out infinite; }
-      #glow-2 { animation: float-medium 12s ease-in-out infinite; }
-      #glow-3 { animation: float-fast 9s ease-in-out infinite; }
-      #glow-4 { animation: float-slow 11s ease-in-out infinite reverse; }
-      #glow-5 { animation: float-medium 14s ease-in-out infinite reverse; }
-      #glow-6 { animation: float-diagonal 10s ease-in-out infinite; }
-      #glow-7 { animation: float-wave 13s ease-in-out infinite; }
-      #glow-8 { animation: float-pulse 7s ease-in-out infinite; }
+      #glow-t1 { animation: float-slow 8s ease-in-out infinite; }
+      #glow-t2 { animation: float-medium 12s ease-in-out infinite; }
+      #glow-t3 { animation: float-fast 9s ease-in-out infinite; }
+      #glow-t4 { animation: float-slow 11s ease-in-out infinite reverse; }
+      #glow-t5 { animation: float-medium 14s ease-in-out infinite reverse; }
     `}</style>
 
-  <svg width="860" height="260" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="220" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
-      <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.72)" />
-        <stop offset="40%" stopColor="rgba(90,15,180,0.35)" />
-        <stop offset="70%" stopColor="rgba(90,15,180,0)" />
+      <radialGradient id="gt1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(110,20,210,0.65)" />
+        <stop offset="45%" stopColor="rgba(80,15,170,0.28)" />
+        <stop offset="70%" stopColor="rgba(80,15,170,0)" />
       </radialGradient>
-      <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(40,60,255,0.6)" />
-        <stop offset="45%" stopColor="rgba(30,50,200,0.25)" />
-        <stop offset="70%" stopColor="rgba(30,50,200,0)" />
+      <radialGradient id="gt2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(40,70,255,0.55)" />
+        <stop offset="45%" stopColor="rgba(20,50,200,0.22)" />
+        <stop offset="70%" stopColor="rgba(20,50,200,0)" />
       </radialGradient>
-      <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,130,255,0.45)" />
-        <stop offset="50%" stopColor="rgba(0,100,220,0.18)" />
-        <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+      <radialGradient id="gt3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(0,140,255,0.42)" />
+        <stop offset="70%" stopColor="rgba(0,140,255,0)" />
       </radialGradient>
-      <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,190,230,0.32)" />
-        <stop offset="70%" stopColor="rgba(0,190,230,0)" />
+      <radialGradient id="gt4" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(0,195,235,0.30)" />
+        <stop offset="70%" stopColor="rgba(0,195,235,0)" />
       </radialGradient>
-      <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(90,30,200,0.38)" />
-        <stop offset="70%" stopColor="rgba(90,30,200,0)" />
-      </radialGradient>
-      <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(160,30,255,0.55)" />
-        <stop offset="45%" stopColor="rgba(130,20,220,0.22)" />
-        <stop offset="70%" stopColor="rgba(130,20,220,0)" />
-      </radialGradient>
-      <radialGradient id="g7" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(20,60,255,0.42)" />
-        <stop offset="50%" stopColor="rgba(10,40,200,0.16)" />
-        <stop offset="70%" stopColor="rgba(10,40,200,0)" />
-      </radialGradient>
-      <radialGradient id="g8" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,170,255,0.40)" />
-        <stop offset="50%" stopColor="rgba(0,130,220,0.15)" />
-        <stop offset="70%" stopColor="rgba(0,130,220,0)" />
+      <radialGradient id="gt5" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(100,30,210,0.40)" />
+        <stop offset="70%" stopColor="rgba(100,30,210,0)" />
       </radialGradient>
     </defs>
-
-    <ellipse id="glow-1" cx="180" cy="260" rx="260" ry="190" fill="url(#g1)" />
-    <ellipse id="glow-2" cx="300" cy="270" rx="220" ry="160" fill="url(#g2)" />
-    <ellipse id="glow-3" cx="420" cy="270" rx="180" ry="140" fill="url(#g3)" />
-    <ellipse id="glow-4" cx="550" cy="280" rx="150" ry="120" fill="url(#g4)" />
-    <ellipse id="glow-5" cx="750" cy="280" rx="130" ry="110" fill="url(#g5)" />
-    <ellipse id="glow-6" cx="300" cy="270" rx="180" ry="140" fill="url(#g6)" />
-    <ellipse id="glow-7" cx="490" cy="260" rx="220" ry="170" fill="url(#g7)" />
-    <ellipse id="glow-8" cx="590" cy="280" rx="150" ry="130" fill="url(#g8)" />
+    <ellipse id="glow-t1" cx="710" cy="220" rx="210" ry="150" fill="url(#gt1)" />
+    <ellipse id="glow-t2" cx="550" cy="210" rx="190" ry="140" fill="url(#gt2)" />
+    <ellipse id="glow-t3" cx="400" cy="200" rx="170" ry="130" fill="url(#gt3)" />
+    <ellipse id="glow-t4" cx="250" cy="210" rx="150" ry="120" fill="url(#gt4)" />
+    <ellipse id="glow-t5" cx="100" cy="220" rx="130" ry="110" fill="url(#gt5)" />
   </svg>
 
   <div style={{
     display: 'flex',
     flexDirection: 'column',
-    padding: '22px 36px',
-    gap: 7,
+    padding: '18px 36px',
+    gap: 10,
     width: '100%',
     boxSizing: 'border-box',
+    zIndex: 10,
   }}>
     <div style={{
-      fontSize: 32,
+      fontSize: 28,
       fontWeight: 800,
       color: '#ffffff',
       letterSpacing: '-0.5px',
       lineHeight: 1,
-      marginBottom: 4,
+      marginBottom: 2,
     }}>
-      Skills
+      Technology Stack
     </div>
 
     {[
-      { label: 'Programming', value: 'Python, Bash, Powershell' },
-      { label: 'Domains', value: 'Network Security, Web Application Security, API Security, OWASP Top 10' },
-      { label: 'Frameworks', value: 'PTES, MITRE ATT&CK' },
-      { label: 'Systems & Technologies', value: 'Linux, Windows, VMware, GitHub, Docker' },
-      { label: 'Security Tools', value: 'Burp Suite, Nmap, Metasploit, Wireshark, OWASP ZAP, Postman' },
+      { label: 'Programming', icons: ['go', 'py', 'java', 'bash'], text: '' },
+      { label: 'Security', icons: ['pytorch', 'linux'], text: 'WAPT' },
+      { label: 'Systems', icons: ['docker'], text: 'VMware, N8N' },
+      { label: 'OS', icons: ['arch', 'kali', 'windows'], text: '' },
     ].map(function(row, i) {
       return (
-        <div key={row.label + '-' + i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', lineHeight: 1.4 }}>
+        <div key={row.label + '-' + i} style={{ display: 'flex', gap: 10, alignItems: 'center', lineHeight: 1.4 }}>
           <div style={{
-            minWidth: 168,
-            fontSize: 12,
+            minWidth: 140,
+            fontSize: 11,
             fontWeight: 700,
             color: 'rgba(200,185,255,0.95)',
             letterSpacing: '0.02em',
           }}>
             {row.label}
           </div>
-          <div style={{
-            flex: 1,
-            fontSize: 12,
-            fontWeight: 500,
-            color: 'rgba(205,195,255,0.88)',
-          }}>
-            {row.value}
+          <div style={{ display: 'flex', gap: 6, alignItems: 'center', flexWrap: 'wrap' }}>
+            {row.icons.map(function(icon) {
+              return (
+                <img
+                  key={icon}
+                  src={'https://skillicons.dev/icons?i=' + icon}
+                  alt={icon}
+                  width={24}
+                  height={24}
+                  style={{ borderRadius: 4 }}
+                />
+              );
+            })}
+            {row.text && row.text.split(', ').map(function(t) {
+              return (
+                <div key={t} style={{
+                  padding: '2px 8px',
+                  borderRadius: 6,
+                  background: 'rgba(80,40,220,0.15)',
+                  border: '1px solid rgba(100,70,240,0.25)',
+                  color: 'rgba(205,195,255,0.85)',
+                  fontSize: 10,
+                  fontWeight: 600,
+                }}>{t}</div>
+              );
+            })}
           </div>
         </div>
       );
