@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:6622ee,100:0088ff&height=200&section=header&animation=fadeIn" alt="header" />
-</p>
-
 ```aura width=860 height=200 link="https://aki-seven.github.io/"
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
@@ -276,10 +272,6 @@
 </div>
 ```
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6622ee,100:0088ff&height=80&section=header&text=FEATURED%20PROJECTS&fontSize=30&fontColor=ffffff&animation=fadeIn" alt="projects" />
-</p>
-
 ```aura width=860 height=320 link="https://collectioneur.github.io/readme-aura/"
 (function() {
   var projects = [
@@ -419,6 +411,4 @@
 })()
 ```
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:08080c,100:1a1a2e&height=60&section=footer&text=powered%20by%20readme-aura&fontSize=14&fontColor=9080dc&animation=fadeIn" alt="footer" />
-</p>
+powered by readme-aura
