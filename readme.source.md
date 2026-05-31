@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:6622ee,100:0088ff&height=200&section=header&animation=fadeIn" alt="header" />
+</p>
 
 ```aura width=860 height=200 link="https://collectioneur.github.io/readme-aura/"
 <div style={{
@@ -106,15 +108,15 @@
 
   <div style={{ display:'flex', flexDirection:'column', marginLeft:168, gap:8, zIndex: 10 }}>
     <div style={{ display:'flex', fontSize:38, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
-      {github?.user?.name || github?.user?.login || 'aki-seven' || 'Name'}
+      {github?.user?.name || github?.user?.login || 'aki-seven'}
     </div>
     <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-      {github?.user?.bio || 'Put here your bio'}
+      {github?.user?.bio || 'Java | Python | VAPT | WAPT | HQX Top 200'}
     </div>
     <div style={{ display:'flex', gap:8, marginTop:6, flexWrap: 'wrap' }}>
       {((github && github.languages && github.languages.length > 0)
-        ? github.languages.slice(0, 4).map(function(l) { return l.name; })
-        : ['readme-aura', 'other technologies']
+        ? github.languages.slice(0, 5).map(function(l) { return l.name; })
+        : ['Python', 'TypeScript', 'Java', 'Shell', 'HTML']
       ).map(function(tag, i) {
         return (
           <div key={tag + '-' + i} style={{
@@ -129,8 +131,149 @@
 </div>
 ```
 
-```aura width=860 height=22 link="https://collectioneur.github.io/readme-aura/"
-  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100%', padding: 0, margin: 0 }}>
-    <span style={{ fontSize: 12, lineHeight: 1, color: 'rgba(150,140,200,0.55)', fontWeight: 500, letterSpacing: '0.4px' }}>powered by readme-aura</span>
-  </div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6622ee,100:0088ff&height=80&section=header&text=FEATURED%20PROJECTS&fontSize=30&fontColor=ffffff&animation=fadeIn" alt="projects" />
+</p>
+
+```aura width=860 height=320 link="https://collectioneur.github.io/readme-aura/"
+(function() {
+  var projects = [
+    {
+      name: 'CTF_enum',
+      desc: 'Automation script for recon and enumeration in CTF challenges',
+      lang: 'Python',
+      url: 'https://github.com/aki-seven/CTF_enum',
+      color: '#3572A5',
+      stars: 1,
+    },
+    {
+      name: 'Hash3r',
+      desc: 'CLI tool to hash strings/files with Argon2, Bcrypt, MD5, SHA256, Blake3',
+      lang: 'Python',
+      url: 'https://github.com/aki-seven/Hash3r',
+      color: '#3572A5',
+      stars: 0,
+    },
+    {
+      name: 'ytdesktop',
+      desc: 'A Desktop App for YouTube built with Electron',
+      lang: 'TypeScript',
+      url: 'https://github.com/aki-seven/ytdesktop',
+      color: '#3178c6',
+      stars: 0,
+    },
+    {
+      name: 'Internship-Projects',
+      desc: 'All internship projects bundled in a single repository',
+      lang: 'Python',
+      url: 'https://github.com/aki-seven/Internship-Projects',
+      color: '#3572A5',
+      stars: 0,
+    },
+    {
+      name: 'DOTFILES',
+      desc: 'My configuration files for my setup. Feel free to use em.',
+      lang: 'Shell',
+      url: 'https://github.com/aki-seven/DOTFILES',
+      color: '#89e051',
+      stars: 0,
+    },
+  ];
+
+  return (
+    <div style={{
+      width: '100%', height: '100%', background: '#08080c',
+      display: 'flex', flexDirection: 'column', fontFamily: 'Inter',
+      padding: '24px 32px', gap: 16, borderRadius: 16,
+      border: '1px solid rgba(110,80,220,0.18)',
+      position: 'relative', overflow: 'hidden',
+    }}>
+      <style>{`
+        @keyframes float-slow {
+          0%, 100% { transform: translateX(0px); opacity: 0.8; }
+          50% { transform: translateX(350px); opacity: 1.2; }
+        }
+        @keyframes float-medium {
+          0%, 100% { transform: translateX(0px); opacity: 0.7; }
+          50% { transform: translateX(-250px); opacity: 1.1; }
+        }
+        @keyframes float-fast {
+          0%, 100% { transform: translateX(0px); opacity: 0.9; }
+          50% { transform: translateX(200px); opacity: 0.6; }
+        }
+        #glow-p1 { animation: float-slow 9s ease-in-out infinite; }
+        #glow-p2 { animation: float-medium 12s ease-in-out infinite; }
+        #glow-p3 { animation: float-fast 8s ease-in-out infinite; }
+      `}</style>
+
+      <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="gp1" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(102,34,238,0.4)" />
+            <stop offset="70%" stopColor="rgba(102,34,238,0)" />
+          </radialGradient>
+          <radialGradient id="gp2" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(0,136,255,0.3)" />
+            <stop offset="70%" stopColor="rgba(0,136,255,0)" />
+          </radialGradient>
+          <radialGradient id="gp3" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(80,40,220,0.35)" />
+            <stop offset="70%" stopColor="rgba(80,40,220,0)" />
+          </radialGradient>
+        </defs>
+        <ellipse id="glow-p1" cx="200" cy="300" rx="250" ry="180" fill="url(#gp1)" />
+        <ellipse id="glow-p2" cx="500" cy="310" rx="200" ry="150" fill="url(#gp2)" />
+        <ellipse id="glow-p3" cx="750" cy="300" rx="180" ry="140" fill="url(#gp3)" />
+      </svg>
+
+      <div style={{ display:'flex', flexWrap:'wrap', gap:14, zIndex:10 }}>
+        {projects.map(function(p) {
+          return (
+            <a key={p.name} href={p.url} style={{
+              display:'flex', flexDirection:'column', width:'260px',
+              padding:'16px', borderRadius:12, textDecoration:'none',
+              background:'rgba(20,15,40,0.7)', border:'1px solid rgba(110,80,220,0.2)',
+              gap:8,
+            }}>
+              <div style={{ display:'flex', alignItems:'center', gap:8 }}>
+                <div style={{
+                  width:10, height:10, borderRadius:5, background:p.color,
+                }} />
+                <div style={{
+                  fontSize:16, fontWeight:700, color:'#ffffff', letterSpacing:'-0.3px',
+                }}>{p.name}</div>
+              </div>
+              <div style={{
+                fontSize:12, color:'rgba(180,165,255,0.7)', lineHeight:1.4,
+                minHeight:34,
+              }}>{p.desc}</div>
+              <div style={{ display:'flex', alignItems:'center', gap:8, marginTop:4 }}>
+                <div style={{
+                  padding:'2px 8px', borderRadius:10,
+                  background:p.color + '20', border:'1px solid ' + p.color + '40',
+                  color:p.color, fontSize:10, fontWeight:600,
+                }}>{p.lang}</div>
+                {p.stars > 0 && (
+                  <div style={{
+                    display:'flex', alignItems:'center', gap:3,
+                    color:'rgba(255,215,0,0.8)', fontSize:10, fontWeight:600,
+                  }}>
+                    <svg width="10" height="10" viewBox="0 0 16 16" fill="currentColor">
+                      <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                    </svg>
+                    {p.stars}
+                  </div>
+                )}
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  );
+})()
 ```
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:08080c,100:1a1a2e&height=60&section=footer&text=powered%20by%20readme-aura&fontSize=14&fontColor=9080dc&animation=fadeIn" alt="footer" />
+</p>
