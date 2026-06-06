@@ -8,19 +8,15 @@
 <table>
   <tr>
     <td width="220" valign="middle"><b>Languages & Scripting</b></td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/1/python.svg" width="32" height="32"> Python
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/1/java.svg" width="32" height="32"> Java
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/1/bash.svg" width="32" height="32"> Bash
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/1/powershell.svg" width="32" height="32"> PowerShell
     </td>
@@ -29,19 +25,15 @@
 
   <tr>
     <td valign="middle"><b>Systems & Tools</b></td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/2/linux.svg" width="32" height="32"> Linux
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/2/windows.svg" width="32" height="32"> Windows
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/2/git.svg" width="32" height="32"> Git
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/2/docker.svg" width="32" height="32"> Docker
     </td>
@@ -50,27 +42,21 @@
 
   <tr>
     <td valign="middle"><b>Security</b></td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/3/burp-suite.svg" width="32" height="32"> Burp Suite
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/3/nmap.svg" width="32" height="32"> Nmap
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/3/wireshark.svg" width="32" height="32"> Wireshark
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/3/postman.svg" width="32" height="32"> Postman
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/3/vscode.svg" width="32" height="32"> VS Code
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/3/cursor-ai.svg" width="32" height="32"> Cursor
     </td>
@@ -79,23 +65,18 @@
 
   <tr>
     <td valign="middle"><b>AI & Automation</b></td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/4/langchain.svg" width="32" height="32"> LangChain
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/4/ollama.svg" width="32" height="32"> Ollama
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/4/huggingface.svg" width="32" height="32"> Hugging Face
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/4/n8n.svg" width="32" height="32"> n8n
     </td>
-
     <td nowrap>
       <img src="./.github/assets/tech_stack/4/strands.svg" width="32" height="32"> Strands
     </td>
