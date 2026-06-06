@@ -5,79 +5,15 @@
 <h3>🛠️ Tech Stack</h3>
 
 <table>
-  <tr>
-    <td rowspan="2" width="220" valign="middle"><b>Languages & Scripting</b></td>
-    <td align="center"><img src="./.github/assets/tech_stack/1/python.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/1/java.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/1/bash.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40" height="40"></td>
-  </tr>
-  <tr>
-    <td align="center">Python</td>
-    <td align="center">Java</td>
-    <td align="center">Bash</td>
-    <td align="center">PowerShell</td>
-  </tr>
-
-  <tr>
-    <td rowspan="2" valign="middle"><b>Systems & Tooling</b></td>
-    <td align="center"><img src="./.github/assets/tech_stack/2/linux.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/2/windows.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/2/git.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/2/docker.svg" width="40" height="40"></td>
-  </tr>
-  <tr>
-    <td align="center">Linux</td>
-    <td align="center">Windows</td>
-    <td align="center">Git</td>
-    <td align="center">Docker</td>
-  </tr>
-
-  <tr>
-    <td rowspan="2" valign="middle"><b>Security</b></td>
-    <td align="center"><img src="./.github/assets/tech_stack/3/burp-suite.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/3/nmap.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/3/wireshark.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/3/postman.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/3/vscode.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/3/cursor-ai.svg" width="40" height="40"></td>
-  </tr>
-  <tr>
-    <td align="center">Burp Suite</td>
-    <td align="center">Nmap</td>
-    <td align="center">Wireshark</td>
-    <td align="center">Postman</td>
-    <td align="center">VS Code</td>
-    <td align="center">Cursor</td>
-  </tr>
-
-  <tr>
-    <td rowspan="2" valign="middle"><b>AI & Automation</b></td>
-    <td align="center"><img src="./.github/assets/tech_stack/4/langchain.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/4/ollama.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/4/huggingface.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/4/n8n.svg" width="40" height="40"></td>
-    <td align="center"><img src="./.github/assets/tech_stack/4/strands.svg" width="40" height="40"></td>
-  </tr>
-  <tr>
-    <td align="center">LangChain</td>
-    <td align="center">Ollama</td>
-    <td align="center">Hugging Face</td>
-    <td align="center">n8n</td>
-    <td align="center">Strands</td>
-  </tr>
-</table>
-
-<h3>🛠️ Tech Stack</h3>
-
-<table>
 <tr>
-<td rowspan="2" width="220"><b>Languages & Scripting</b></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/python.svg" width="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/java.svg" width="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/bash.svg" width="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40"></td>
+<td width="220" rowspan="2"><b>Languages & Scripting</b></td>
+
+<td align="center"><img src="./.github/assets/tech_stack/1/python.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/1/java.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/1/bash.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40" height="40"></td>
 </tr>
+
 <tr>
 <td align="center">Python</td>
 <td align="center">Java</td>
@@ -88,7 +24,69 @@
 
 <br>
 
+<table>
+<tr>
+<td width="220" rowspan="2"><b>Systems & Tooling</b></td>
 
+<td align="center"><img src="./.github/assets/tech_stack/2/linux.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/2/windows.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/2/git.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/2/docker.svg" width="40" height="40"></td>
+</tr>
+
+<tr>
+<td align="center">Linux</td>
+<td align="center">Windows</td>
+<td align="center">Git</td>
+<td align="center">Docker</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td width="220" rowspan="2"><b>Security</b></td>
+
+<td align="center"><img src="./.github/assets/tech_stack/3/burp-suite.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/3/nmap.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/3/wireshark.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/3/postman.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/3/vscode.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/3/cursor-ai.svg" width="40" height="40"></td>
+</tr>
+
+<tr>
+<td align="center">Burp Suite</td>
+<td align="center">Nmap</td>
+<td align="center">Wireshark</td>
+<td align="center">Postman</td>
+<td align="center">VS Code</td>
+<td align="center">Cursor</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td width="220" rowspan="2"><b>AI & Automation</b></td>
+
+<td align="center"><img src="./.github/assets/tech_stack/4/langchain.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/4/ollama.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/4/huggingface.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/4/n8n.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/4/strands.svg" width="40" height="40"></td>
+</tr>
+
+<tr>
+<td align="center">LangChain</td>
+<td align="center">Ollama</td>
+<td align="center">Hugging Face</td>
+<td align="center">n8n</td>
+<td align="center">Strands</td>
+</tr>
+</table>
 
 [![readme-aura-component-2](./.github/assets/readme-aura-component-2-aaa6e707.svg "Generated by readme-aura")](https://aki-seven.github.io/)
 
