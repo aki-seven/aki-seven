@@ -8,16 +8,16 @@
 <tr>
 <td width="220" rowspan="2"><b>Languages & Scripting</b></td>
 
-<td align="center"><img src="./.github/assets/tech_stack/1/python.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/java.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/bash.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40" height="40"></td>
+<td align="center"><img src="./.github/assets/tech_stack/1/python.svg" width="40" height="40">&nbsp;</td>
+<td align="center"><img src="./.github/assets/tech_stack/1/java.svg" width="40" height="40">&nbsp;</td>
+<td align="center"><img src="./.github/assets/tech_stack/1/bash.svg" width="40" height="40">&nbsp;</td>
+<td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40" height="40">&nbsp;</td>
 </tr>
 
 <tr>
-<td align="center">Python</td>
-<td align="center">Java</td>
-<td align="center">Bash</td>
+<td align="center">Python&nbsp;</td>
+<td align="center">Java<&nbsp;/td>
+<td align="center">Bash&nbsp;</td>
 <td align="center">PowerShell</td>
 </tr>
 </table>
