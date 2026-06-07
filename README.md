@@ -4,54 +4,40 @@
 
 <h3>🛠️ Tech Stack</h3>
 
-<table>
-<tr>
-<td width="220" rowspan="2"><b>Languages & Scripting</b></td>
+<p>
+<b>Languages & Scripting</b><br>
+<img src="./.github/assets/tech_stack/1/python.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/1/java.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/1/bash.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/1/powershell.svg" width="48" height="48">
+</p>
 
-<td align="center"><img src="./.github/assets/tech_stack/1/python.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/java.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/bash.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40" height="40"></td>
-</tr>
+<p>
+<b>Systems & Tooling</b><br>
+<img src="./.github/assets/tech_stack/2/linux.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/2/windows.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/2/git.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/2/docker.svg" width="48" height="48">
+</p>
 
-<br>
+<p>
+<b>Security</b><br>
+<img src="./.github/assets/tech_stack/3/burp-suite.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/3/nmap.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/3/wireshark.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/3/postman.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/3/vscode.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/3/cursor-ai.svg" width="48" height="48">
+</p>
 
-<table>
-<tr>
-<td width="220" rowspan="2"><b>Systems & Tooling</b></td>
-
-<td align="center"><img src="./.github/assets/tech_stack/2/linux.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/2/windows.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/2/git.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/2/docker.svg" width="40" height="40"></td>
-</tr>
-
-<br>
-
-<table>
-<tr>
-<td width="220" rowspan="2"><b>Security</b></td>
-
-<td align="center"><img src="./.github/assets/tech_stack/3/burp-suite.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/3/nmap.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/3/wireshark.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/3/postman.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/3/vscode.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/3/cursor-ai.svg" width="40" height="40"></td>
-</tr>
-
-<br>
-
-<table>
-<tr>
-<td width="220" rowspan="2"><b>AI & Automation</b></td>
-
-<td align="center"><img src="./.github/assets/tech_stack/4/langchain.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/4/ollama.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/4/huggingface.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/4/n8n.svg" width="40" height="40"></td>
-<td align="center"><img src="./.github/assets/tech_stack/4/strands.svg" width="40" height="40"></td>
-</tr>
+<p>
+<b>AI & Automation</b><br>
+<img src="./.github/assets/tech_stack/4/langchain.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/4/ollama.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/4/huggingface.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/4/n8n.svg" width="48" height="48">
+<img src="./.github/assets/tech_stack/4/strands.svg" width="52" height="44">
+</p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7507FFCF&width=435&lines=You+can+meet+me+at+aki-seven.github.io)](https://aki-seven.github.io)
 
