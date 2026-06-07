@@ -14,14 +14,6 @@
 <td align="center"><img src="./.github/assets/tech_stack/1/powershell.svg" width="40" height="40"></td>
 </tr>
 
-<tr>
-<td align="center">Python</td>
-<td align="center">Java</td>
-<td align="center">Bash</td>
-<td align="center">PowerShell</td>
-</tr>
-</table>
-
 <br>
 
 <table>
@@ -33,14 +25,6 @@
 <td align="center"><img src="./.github/assets/tech_stack/2/git.svg" width="40" height="40"></td>
 <td align="center"><img src="./.github/assets/tech_stack/2/docker.svg" width="40" height="40"></td>
 </tr>
-
-<tr>
-<td align="center">Linux</td>
-<td align="center">Windows</td>
-<td align="center">Git</td>
-<td align="center">Docker</td>
-</tr>
-</table>
 
 <br>
 
@@ -56,16 +40,6 @@
 <td align="center"><img src="./.github/assets/tech_stack/3/cursor-ai.svg" width="40" height="40"></td>
 </tr>
 
-<tr>
-<td align="center">Burp Suite</td>
-<td align="center">Nmap</td>
-<td align="center">Wireshark</td>
-<td align="center">Postman</td>
-<td align="center">VS Code</td>
-<td align="center">Cursor</td>
-</tr>
-</table>
-
 <br>
 
 <table>
@@ -78,15 +52,6 @@
 <td align="center"><img src="./.github/assets/tech_stack/4/n8n.svg" width="40" height="40"></td>
 <td align="center"><img src="./.github/assets/tech_stack/4/strands.svg" width="40" height="40"></td>
 </tr>
-
-<tr>
-<td align="center">LangChain</td>
-<td align="center">Ollama</td>
-<td align="center">Hugging Face</td>
-<td align="center">n8n</td>
-<td align="center">Strands</td>
-</tr>
-</table>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7507FFCF&width=435&lines=You+can+meet+me+at+aki-seven.github.io)](https://aki-seven.github.io)
 
