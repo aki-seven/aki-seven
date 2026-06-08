@@ -73,11 +73,11 @@
 <a><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=1000&pause=3000&color=F7F7F7&background=15151510&multiline=true&width=155&height=25&lines=Connect+with+me%3A">
 <img src="https://user-images..githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="30" valign="bottom"></a>
 
-[<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linkedin.svg" width="36">](https://www.linkedin.com/in/akhileshbadyal/)
+[<img src=".github/assets/icons/linkedin.svg" width="36">](https://www.linkedin.com/in/akhileshbadyal/)
 &nbsp;
-[<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tryhackme.svg" width="36">](https://tryhackme.com/p/aki7)
+[<img src=".github/assets/icons/tryhackme.svg" width="36">](https://tryhackme.com/p/aki7)
 &nbsp;
-[<img src="https://cdn.brandfetch.io/id-M19oKfL/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1771578361329" width="36">](https://profile.hackthebox.com/profile/019d44a8-f844-70ee-b58c-45a10535c70e)
+[<img src=".github/assets/icons/htb.svg" width="36">](https://profile.hackthebox.com/profile/019d44a8-f844-70ee-b58c-45a10535c70e)
 &nbsp;
 
 <!--LinkedIn TryHackMe Hack The Box-->
