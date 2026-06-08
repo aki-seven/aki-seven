@@ -71,7 +71,7 @@
 <!--<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=1000&pause=1&color=F7F7F7&background=15151510&multiline=true&repeat=false&width=155&height=25&lines=Connect+with+me%3A"> REPEAT FALSE-->
 
 <a><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=1000&pause=3000&color=F7F7F7&background=15151510&multiline=true&width=155&height=25&lines=Connect+with+me%3A">
-<img src="https://user-images..githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="30" valign="bottom"></a>
+<img src=".github/assets/gifs/connect.gif" width="40" valign="bottom"></a>
 
 [<img src=".github/assets/icons/linkedin.svg" width="36">](https://www.linkedin.com/in/akhileshbadyal/)
 &nbsp;
